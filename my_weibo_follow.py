@@ -14,7 +14,7 @@ class Spider:
     def __init__(self, scaned_userid, toscan_userid):
         self.headers = {
             'User_Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
-            'Cookie': "SCF=AsMne7fO3voaLXMlzShxTz8BDbgvzPYETCBAxwFEC7RoZ6psO_VroNfr63SxvOQm7-LhpQxTU8BOdMAIG7bnVvw.; SUB=_2A25MGyxMDeRhGeFL7FMW8y7JwjqIHXVv57QErDV6PUJbktCOLWWtkW1NfavDghi1lKbyNtV4belYiO4V3KGIeQ4P; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WFw_TCHWi-kwBNp4ozx1eaQ5NHD95QNSKMpS0e7SK.cWs4DqcjKi--ciKLsi-z0i--NiKL2i-isqBtt; SSOLoginState=1629445149; _T_WM=51525851769; WEIBOCN_FROM=1110006030; MLOGIN=1; M_WEIBOCN_PARAMS=uicode%3D20000174",
+            'Cookie': "",
             'Connection': 'close'
         }
         self.scaned_userid = scaned_userid
