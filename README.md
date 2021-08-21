@@ -2,7 +2,7 @@
 爬虫采集微博用户名数据集
 
 ### 优势
-支持崩溃恢复，爬取过程中可随时中断，下次执行时可无缝衔接
+爬取过程中可随时中断，下次执行时可无缝衔接
 
 ### 原理
 从toscan_userid.txt读取userid进行爬取，爬取完后将此userid写入scaned_userid.txt文件，以避免重复爬取，且同时将用户名保存至username.txt，将通过该userid找到的新的userid存入toscan_userid_new.txt，当toscan_userid.txt的userid全部扫描完后，手动将toscan_userid_new.txt改名为toscan_userid.txt
